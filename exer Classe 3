@@ -1,0 +1,37 @@
+class calculadora():
+    def __init__(self):
+        self.num1 = int(input("digite um numero:  "))
+        self.calculo = input("digite, '+'para adição, '-' subtração,'*'multiplicação,'/'divisão")
+        self.num2 = int(input("Digite um numero:  "))
+
+    def adição(self):
+        if self.calculo == "+":
+            adi = self.num1 + self.num2
+            print(f"{adi}")
+
+    def subtração(self):
+        if self.calculo == "-":
+            sub = self.num1 - self.num2
+            print(f"{sub}")
+
+    def multiplicação(self):
+        if self.calculo == "*":
+            mult = self.num1 * self.num2
+            print(f"{mult}")
+
+    def divisão(self):
+        if self.calculo == "/":
+            divi = self.num1 / self.num2
+            print(f"{divi}")
+
+ex1 = calculadora()
+ex1.adição()
+ex1.subtração()
+ex1.multiplicação()
+ex1.divisão()
+
+ex2 = calculadora()
+ex2.adição()
+ex2.subtração()
+ex2.multiplicação()
+ex2.divisão()
