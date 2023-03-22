@@ -1,0 +1,22 @@
+class circulo():
+    def __init__(self):
+        self.raio = int(input("Digite o raio do circulo 1"))
+        self.pi = 3.14
+
+    def area(self):
+        a = self.pi * (self.raio * self. raio)
+        print(f"O valor da area é: {a}")
+
+    def perimetro(self):
+        p = 2 * self.pi * self.raio
+        print(f"O valor do perimetro é: {p}")
+
+
+
+ex1 = circulo()
+ex1.area()
+ex1.perimetro()
+
+ex2 = circulo()
+ex2.area()
+ex2.perimetro()
