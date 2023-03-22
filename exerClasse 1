@@ -1,0 +1,8 @@
+class pessoa():
+    def __init__(self):
+        self.nome = input("digite seu nome:  ")
+        self.idade = int(input("digite a sua idade:  "))
+        self.altura = float(input("digite sua altura:  "))
+
+    def exibir(self):
+        print(self.nome , self.idade , self.altura)
